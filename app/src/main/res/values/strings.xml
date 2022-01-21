@@ -9,4 +9,6 @@
     <string name="error_no_name">No team name</string>
     <string name="error_no_time">Please enter the remaining time</string>
     <string name="english">English</string>
+    <string name="polo">Polonium Operation</string>
+    <string name="ali">Ali\'s Hideout</string>
 </resources>

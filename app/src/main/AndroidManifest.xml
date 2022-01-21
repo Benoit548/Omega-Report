@@ -10,9 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OmegaReport">
         <activity
+            android:name=".Controller.ChoiceActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".Controller.ReportScreen"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".Controller.MainActivity"
             android:exported="true"

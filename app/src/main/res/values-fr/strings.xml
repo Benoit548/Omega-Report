@@ -9,4 +9,6 @@
     <string name="error_no_name">Pas de nom d\'équipe</string>
     <string name="error_no_time">Entrez le temps restant</string>
     <string name="english">English</string>
+    <string name="polo">Opération Polonium</string>
+    <string name="ali">La Planque d\'Ali</string>
 </resources>

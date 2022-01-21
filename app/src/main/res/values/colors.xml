@@ -11,4 +11,5 @@
     <color name="trans_black_thick">#BF000000</color>
     <color name="trans_white">#BFFFFFFF</color>
     <color name="omega_orange">#E2720D</color>
+    <color name="grey">#A9A9A9</color>
 </resources>
