@@ -44,7 +44,7 @@ public class ChoiceActivity extends AppCompatActivity{
             @Override
             public void onClick(View view) {
 
-                Intent myIntent = new Intent(ChoiceActivity.this, MainActivity.class);
+                Intent myIntent = new Intent(ChoiceActivity.this, PoloToFill.class);
                 startActivity(myIntent);
 
             }

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blurred_background_droit"
+    tools:context=".Controller.MainActivity">
+
+    <TextView
+        android:id="@+id/main_TextView_congrats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/main_congrats"
+        android:textAlignment="center"
+        android:textSize="46sp"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/poloFill_layout_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/main_TextView_congrats">
+
+        <EditText
+            android:id="@+id/main_editText_TeamName"
+            android:layout_width="213dp"
+            android:layout_height="66dp"
+            android:layout_margin="32dp"
+            android:background="@color/trans_black"
+            android:hint="Omega Squad"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:textColorHint="@color/trans_white"
+            app:layout_constraintBottom_toTopOf="@id/poloFill_layout_cities"
+            app:layout_constraintEnd_toStartOf="@id/main_EditText_time"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_TextView_congrats"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+    <EditText
+        android:id="@+id/main_EditText_time"
+        android:layout_width="234dp"
+        android:layout_height="66dp"
+        android:layout_marginEnd="32dp"
+        android:background="@color/trans_black"
+        android:ems="10"
+        android:hint="@string/timer_hint"
+        android:inputType="time"
+        android:padding="8dp"
+        android:textColorHint="@color/trans_white"
+        app:layout_constraintBottom_toTopOf="@+id/poloFill_layout_cities"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/main_editText_TeamName"
+        app:layout_constraintTop_toBottomOf="@+id/main_TextView_congrats" />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/main_button_submit"
+        android:layout_width="106dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/omega_orange"
+        android:text="@string/main_submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/poloFill_layout_cities"/>
+
+    <CheckBox
+        android:id="@+id/main_checkBox_english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/english"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/poloFill_layout_cities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/main_button_submit"
+        app:layout_constraintTop_toBottomOf="@+id/poloFill_layout_editText">
+
+        <CheckBox
+            android:id="@+id/poloFill_checkBox_Bombay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bombay">
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/poloFill_checkBox_Paris"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/paris">
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/poloFill_checkBox_SaoPaulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/saoPaulo">
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/poloFill_checkBox_Pekin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pekin">
+        </CheckBox>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

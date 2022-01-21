@@ -11,4 +11,8 @@
     <string name="english">English</string>
     <string name="polo">Opération Polonium</string>
     <string name="ali">La Planque d\'Ali</string>
+    <string name="bombay">Bombay</string>
+    <string name="paris">Paris</string>
+    <string name="saoPaulo">Sao Paulo</string>
+    <string name="pekin">Pékin</string>
 </resources>
