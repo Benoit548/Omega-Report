@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/polo_report_droit"
+    tools:context=".Controller.PoloReport">
+
+    <TextView
+        android:id="@+id/report_textView_success"
+        android:layout_width="match_parent"
+        android:layout_height="342dp"
+        android:gravity="center"
+        android:text="@string/mission_success"
+        android:textColor="@color/white"
+        android:textSize="@dimen/congrats_size" />
+
+
+
+    <TextView
+        android:id="@+id/report_textView_team_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Omega Squad"
+        android:textColor="@color/white"
+        android:textSize="@dimen/team_name_size"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/poloReport_imageView_bombay"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/nuc_true" />
+
+        <ImageView
+            android:id="@+id/poloReport_imageView_paris"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/nuc_true" />
+
+        <ImageView
+            android:id="@+id/poloReport_imageView_saoPaulo"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/nuc_true" />
+
+        <ImageView
+            android:id="@+id/poloReport_imageView_pekin"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/nuc_true" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/report_textView_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/timer"
+        android:textColor="@color/white"
+        android:textSize="@dimen/congrats_size"/>
+
+</LinearLayout>

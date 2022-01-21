@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OmegaReport">
         <activity
-            android:name=".Controller.PoloToFill"
+            android:name=".Controller.PoloReport"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:exported="false" />
+        <activity
+            android:name=".Controller.PoloToFill"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".Controller.ChoiceActivity"
             android:exported="true"

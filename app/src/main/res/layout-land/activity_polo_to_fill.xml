@@ -8,7 +8,7 @@
     tools:context=".Controller.MainActivity">
 
     <TextView
-        android:id="@+id/main_TextView_congrats"
+        android:id="@+id/polo_TextView_congrats"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -25,10 +25,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        app:layout_constraintTop_toBottomOf="@id/main_TextView_congrats">
+        app:layout_constraintTop_toBottomOf="@id/polo_TextView_congrats">
 
         <EditText
-            android:id="@+id/main_editText_TeamName"
+            android:id="@+id/polo_editText_TeamName"
             android:layout_width="213dp"
             android:layout_height="66dp"
             android:layout_margin="32dp"
@@ -38,14 +38,14 @@
             android:padding="8dp"
             android:textColorHint="@color/trans_white"
             app:layout_constraintBottom_toTopOf="@id/poloFill_layout_cities"
-            app:layout_constraintEnd_toStartOf="@id/main_EditText_time"
+            app:layout_constraintEnd_toStartOf="@id/polo_EditText_time"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/main_TextView_congrats"
+            app:layout_constraintTop_toBottomOf="@+id/polo_TextView_congrats"
             app:layout_constraintVertical_bias="1.0" />
 
 
     <EditText
-        android:id="@+id/main_EditText_time"
+        android:id="@+id/polo_EditText_time"
         android:layout_width="234dp"
         android:layout_height="66dp"
         android:layout_marginEnd="32dp"
@@ -65,7 +65,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/main_button_submit"
+        android:id="@+id/polo_button_submit"
         android:layout_width="106dp"
         android:layout_height="56dp"
         android:backgroundTint="@color/omega_orange"
@@ -89,7 +89,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        app:layout_constraintBottom_toTopOf="@id/main_button_submit"
+        app:layout_constraintBottom_toTopOf="@id/polo_button_submit"
         app:layout_constraintTop_toBottomOf="@+id/poloFill_layout_editText">
 
         <CheckBox
