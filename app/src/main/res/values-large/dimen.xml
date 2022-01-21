@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TextViews -->
+    <dimen name="size_title">60sp</dimen>
+    <dimen name="padding_title">100dip</dimen>
+    <dimen name="congrats_size">120sp</dimen>
+    <dimen name="team_size">64sp</dimen>
+    <dimen name="team_name_size">96sp</dimen>
+
+    <dimen name="timer_size">120sp</dimen>
+    <!-- Images -->
+    <dimen name="size_image_height">350dip</dimen>
+    <dimen name="size_image_width">@dimen/size_image_height</dimen>
+</resources>

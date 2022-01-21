@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Omega Report</string>
+    <string name="main_congrats">Félicitations !\nEntrez votre nom d\'équipe !</string>
+    <string name="main_submit">Valider</string>
+    <string name="mission_success">Mission réussie !</string>
+    <string name="timer">00:21</string>
+    <string name="team">Equipe :</string>
+    <string name="timer_hint">Temps restant</string>
+    <string name="error_no_name">Pas de nom d\'équipe</string>
+    <string name="error_no_time">Entrez le temps restant</string>
+    <string name="english">English</string>
+</resources>

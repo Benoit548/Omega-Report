@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blurred_background"
+    tools:context=".Controller.MainActivity">
+
+    <TextView
+        android:id="@+id/main_TextView_congrats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/main_congrats"
+        android:textAlignment="center"
+        android:textSize="46sp"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/main_editText_TeamName"
+        android:layout_width="235dp"
+        android:layout_height="79dp"
+        android:background="@color/trans_black"
+        android:ems="10"
+        android:hint="Omega Squad"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColorHint="@color/trans_white"
+        app:layout_constraintBottom_toTopOf="@+id/main_EditText_time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_TextView_congrats"
+        app:layout_constraintVertical_bias="0.189" />
+
+    <EditText
+        android:id="@+id/main_EditText_time"
+        android:layout_width="193dp"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:inputType="time"
+        android:background="@color/trans_black"
+        android:hint="@string/timer_hint"
+        android:textColorHint="@color/trans_white"
+        android:padding="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/main_button_submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_editText_TeamName" />
+
+    <Button
+        android:id="@+id/main_button_submit"
+        android:layout_width="208dp"
+        android:layout_height="62dp"
+        android:backgroundTint="@color/omega_orange"
+        android:inputType="time"
+        android:text="@string/main_submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_EditText_time"
+        app:layout_constraintVertical_bias="0.618" />
+
+    <CheckBox
+        android:id="@+id/main_checkBox_english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/english"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

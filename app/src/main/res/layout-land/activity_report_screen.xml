@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/report_screen"
+    tools:context=".Controller.ReportScreen">
+
+
+    <TextView
+        android:id="@+id/report_textView_success"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="24dp"
+        android:text="@string/mission_success"
+        android:textColor="@color/white"
+        android:textSize="@dimen/congrats_size"
+        tools:layout_editor_absoluteX="16dp" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/report_textView_team_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Omega Squad"
+        android:textColor="@color/white"
+        android:textSize="@dimen/team_name_size"
+        android:padding="24dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/report_textView_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:gravity="center"
+        android:text="@string/timer"
+        android:textColor="@color/white"
+        android:textSize="@dimen/congrats_size"/>
+
+
+</LinearLayout>
