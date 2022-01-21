@@ -45,7 +45,7 @@
         android:background="@color/trans_black"
         android:ems="10"
         android:textColorHint="@color/trans_white"
-        android:hint="Omega Squadd"
+        android:hint="Omega Squad"
         android:inputType="textPersonName"
         android:padding="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
