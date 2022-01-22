@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.provider.SyncStateContract;
 import android.text.TextUtils;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -24,6 +25,8 @@ public class ChoiceActivity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choice);
+
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         mAliButton = findViewById(R.id.choice_button_ali);
         mPoloButton = findViewById(R.id.choice_button_polo);

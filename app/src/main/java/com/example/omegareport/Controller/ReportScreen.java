@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.provider.SyncStateContract;
+import android.view.WindowManager;
 import android.widget.TextView;
 
 import com.example.omegareport.R;
@@ -20,6 +21,7 @@ public class ReportScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_report_screen);
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         mTeamName = findViewById(R.id.report_textView_team_name);
         mTime = findViewById(R.id.report_textView_timer);

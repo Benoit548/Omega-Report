@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.provider.SyncStateContract;
 import android.text.TextUtils;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -36,6 +37,7 @@ public class PoloToFill extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_polo_to_fill);
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         mCongratsText =findViewById(R.id.polo_TextView_congrats);
         mSubmitButton =findViewById(R.id.polo_button_submit);
