@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/blurred_background_droit"
+    android:background="@drawable/blurred_background"
     tools:context=".Controller.MainActivity">
 
     <TextView
