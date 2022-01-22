@@ -76,7 +76,7 @@
         app:layout_constraintTop_toBottomOf="@+id/poloFill_layout_cities"/>
 
     <CheckBox
-        android:id="@+id/main_checkBox_english"
+        android:id="@+id/polo_checkBox_english"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/english"

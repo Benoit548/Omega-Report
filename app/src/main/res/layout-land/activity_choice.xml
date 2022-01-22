@@ -15,18 +15,18 @@
         android:id="@+id/choice_button_ali"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="64dp"
-        android:padding="32dp"
-        android:backgroundTint="@color/grey"
+        android:layout_weight="1"
+        android:textSize="@dimen/choice_text_size"
+        android:background="@drawable/report_screen"
         android:text="@string/ali"/>
 
     <Button
         android:id="@+id/choice_button_polo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="64dp"
-        android:padding="32dp"
-        android:backgroundTint="@color/grey"
+        android:background="@drawable/polo_report"
+        android:layout_weight="1"
+        android:textSize="@dimen/choice_text_size"
         android:text="@string/polo" />
 
 

@@ -6,6 +6,7 @@
     <dimen name="congrats_size">46sp</dimen>
     <dimen name="team_size">32sp</dimen>
     <dimen name="team_name_size">48sp</dimen>
+    <dimen name="choice_text_size">64sp</dimen>
     <!-- Images -->
     <dimen name="size_image_height">140dip</dimen>
     <dimen name="size_image_width">@dimen/size_image_height</dimen>
